@@ -9,7 +9,7 @@ import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
-import Navbar from './components/NavBar';
+import Navbar from './components/Navbar';
 
 import ParticleBackground from './components/ParticleBackground';
 
