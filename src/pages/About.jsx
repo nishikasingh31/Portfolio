@@ -35,7 +35,7 @@ const About = () => {
         </h3>
 
         <h3>
-          II enjoy learning by building things—whether it’s fixing bugs, improving UI, or 
+          I enjoy learning by building things—whether it’s fixing bugs, improving UI, or 
           trying new features until everything works smoothly.
         </h3>
 
