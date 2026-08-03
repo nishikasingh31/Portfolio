@@ -13,9 +13,9 @@ const Projects = () => {
           <p><strong>Tech Stack:</strong> Python, NLP, Scikit-learn</p>
     
           <ul>
-            <li>Built an ML-based model for detecting and translating multiple languages accurately.</li>
+            <li>Built an ML-based model for detecting and translating languages accurately.</li>
             <li>Applied NLP techniques for text preprocessing, classification, and language identification.</li>
-            <li>Trained and evaluated the model on a real-world Twitter dataset.</li>
+            <li>Trained and evaluated the model on Twitter dataset.</li>
             
           </ul>
 
