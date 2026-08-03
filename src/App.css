@@ -168,7 +168,8 @@ nav {
 /* GENERIC CARD (used in Education, Contact, etc.)*/
 .card {
   background: rgba(255, 255, 255, 0.05);
-  padding: 40px;
+  border: 2px solid var(--accent, #38bdf8);
+  padding: 32px;
   border-radius: 15px;
   margin: 10px 0;
   flex: 1;
@@ -177,11 +178,16 @@ nav {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 .card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 10px 25px rgba(56, 189, 248, 0.3);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+}
+
+.card h3 {
+  color: var(--accent, #38bdf8);
 }
 
 .container {
