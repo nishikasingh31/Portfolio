@@ -55,7 +55,7 @@ const Projects = () => {
             onClick={() => window.open("https://nishika-singh-quiz-application.vercel.app/", "_blank")}>
           <h3> <strong>Online Quiz Application </strong></h3>
 
-          <p><strong>Tech Stack:</strong> React, Node.js, MongoDB</p>
+          <p><strong>Tech Stack:</strong> React, Node.js, Express, MongoDB</p>
 
           <ul>
             <li>Built a full-stack MERN Quiz platform that allows users to attempt quizzes.</li>
