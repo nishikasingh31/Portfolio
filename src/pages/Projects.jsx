@@ -18,7 +18,7 @@ const projectData = [
     github: "https://github.com/nishikasingh31/Handwritten-Digit-Classification-using-CNN",
     stack: "Python, TensorFlow, Keras",
     points: [
-      "Built a CNN model for recognizing handwritten digits(0–9) from image data.",
+      "Built a CNN model for recognizing handwritten digits (0–9) from image data.",
       "Used TensorFlow and Keras to train, and evaluate the image classification model.",
       "Trained and evaluated the model on the MNIST digit dataset, achieving high test accuracy.",
     ],
@@ -53,7 +53,6 @@ const Projects = () => {
   return (
     <section id="projects">
       <h2>PROJECTS</h2>
-
       <div className="project-container">
         {projectData.map((proj, i) => (
           <div
@@ -61,7 +60,7 @@ const Projects = () => {
             key={i}
             style={{ "--accent": proj.color }}
             onClick={() => window.open(proj.link, "_blank")}
-          />
+          >
             <h3><strong>{proj.title}</strong></h3>
             <p><strong>Tech Stack:</strong> {proj.stack}</p>
             <ul>
@@ -72,9 +71,10 @@ const Projects = () => {
             
               href={proj.github}
               target="_blank"
+              rel="noopener noreferrer"
               className="github-bottom"
               onClick={(e) => e.stopPropagation()}
-            />
+            >
               🔗 View Code
             </a>
           </div>
