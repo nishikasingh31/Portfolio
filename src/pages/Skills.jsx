@@ -9,13 +9,13 @@ const skillCategories = [
     title: "Web Development",
     icon: "🌐",
     color: "#34d399",
-    skills: ["HTML, CSS", "React.js", "Node.js & Express.js", "RESTful APIs"],
-  },
-  {
-    title: "Databases",
-    icon: "🗄️",
-    color: "#facc15",
-    skills: ["MongoDB", "SQL"],
+    skills: [
+      "HTML, CSS",
+      "React.js",
+      "Node.js & Express.js",
+      "MongoDB",
+      "SQL",
+    ],
   },
   {
     title: "Machine Learning",
