@@ -60,7 +60,7 @@ const Projects = () => {
             key={i}
             style={{ "--accent": proj.color }}
             onClick={() => window.open(proj.link, "_blank")}
-          />
+          >
             <h3><strong>{proj.title}</strong></h3>
             <p><strong>Tech Stack:</strong> {proj.stack}</p>
             <ul>
@@ -74,7 +74,7 @@ const Projects = () => {
               rel="noopener noreferrer"
               className="github-bottom"
               onClick={(e) => e.stopPropagation()}
-            />
+            >
               🔗 View Code
             </a>
           </div>
