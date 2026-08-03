@@ -36,8 +36,8 @@ const Projects = () => {
           <p><strong>Tech Stack:</strong> Python, TensorFlow, Keras</p>
 
           <ul>
-             <li>Built a CNN model for recognizing handwritten digits(0–9) from grayscale image data.</li>
-             <li>Used TensorFlow and Keras to design, train, and evaluate the image classification model.</li>
+             <li>Built a CNN model for recognizing handwritten digits(0–9) from image data.</li>
+             <li>Used TensorFlow and Keras to dtrain, and evaluate the image classification model.</li>
              <li>Trained and evaluated the model on the MNIST digit dataset, achieving high test accuracy.</li>
           </ul>
 
