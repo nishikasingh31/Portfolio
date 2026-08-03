@@ -76,18 +76,18 @@ const Projects = () => {
 
         {/* E-COMMERCE PROJECT */}
         <div className="card project-card"
-        onClick={() => window.open("https://your-live-link.netlify.app", "_blank")}>
+        onClick={() => window.open("https://interview-prep-ai-nishika-singh.vercel.app/", "_blank")}>
           <h3> <strong>E-commerce Website </strong></h3>
     
-          <p><strong>Tech Stack:</strong> React, Node.js, MongoDB</p>
+          <p><strong>Tech Stack:</strong> React, Node.js, Express, MongoDB, LLM (Groq API)</p>
           <ul>
-            <li>Developed an E-commerce Application.</li>
-            <li>Product listing and filtering features for efficient product search.</li>
-            <li>Implemented cart functionality with user authentication.</li>
+            <li>Built a full-stack app that generates role-specific interview questions using an LLM.</li>
+            <li>Implemented real-time streaming of AI responses for a faster experience.</li>
+            <li>Added JWT-based authentication and dual-mode answer practice with AI feedback.</li>
           </ul>
 
           <a
-            href="https://github.com/nishikasingh31/Quiz-Application"
+            href="https://github.com/nishikasingh31/Interview-Prep-AI"
             target="_blank"
             className="github-bottom"
             onClick={(e) => e.stopPropagation()}>
