@@ -1,48 +1,61 @@
+const skillCategories = [
+  {
+    title: "Programming Languages",
+    icon: "💻",
+    color: "#38bdf8",
+    skills: ["JavaScript (ES6+)", "Python"],
+  },
+  {
+    title: "Web Development",
+    icon: "🌐",
+    color: "#34d399",
+    skills: ["HTML, CSS", "React.js", "Node.js & Express.js", "RESTful APIs"],
+  },
+  {
+    title: "Databases",
+    icon: "🗄️",
+    color: "#facc15",
+    skills: ["MongoDB", "SQL"],
+  },
+  {
+    title: "Machine Learning",
+    icon: "🤖",
+    color: "#a78bfa",
+    skills: [
+      "Scikit-learn",
+      "TensorFlow / Keras",
+      "NLP (NLTK, spaCy, Transformers)",
+      "AI/LLM Integration",
+    ],
+  },
+  {
+    title: "Development Tools",
+    icon: "🛠️",
+    color: "#f87171",
+    skills: ["VS Code", "Git & GitHub", "Postman", "Vercel / Render"],
+  },
+];
+
 const Skills = () => {
   return (
     <section id="skills">
       <h2>SKILLS</h2>
-
-      <div className="container">
-
-        <div className="card">
-          <h3> <strong>Programming Languages</strong></h3>
-          <ul>  
-            <li>JavaScript</li>
-            <li>Python</li>
-            <li>Java</li>
-          </ul>
-        </div>
-
-          <div className="card">
-          <h3> <strong>Web Development </strong></h3>
-          <ul>  
-            <li>HTML, CSS, JavaScript</li>
-            <li>React.js</li>
-            <li>Node.js & Express.js</li>
-            <li>MongoDB</li>
-          </ul>
-        </div>
-
-        <div className="card">
-          <h3> <strong>Machine Learning</strong></h3>
-          <ul>
-            <li>Scikit-learn</li>
-            <li>TensorFlow / Keras</li>
-            <li>Model Training & Evaluation</li>
-          </ul>
-        </div>
-
-        <div className="card">
-          <h3> <strong>Development Tools </strong></h3>
-          <ul>
-            <li>VS Code</li>
-            <li>Git & GitHub</li>
-            <li>Postman (API Testing)</li>
-            <li>Vercel / Render (Deployment)</li>
-          </ul>
-        </div>
-
+      <div className="skills-container">
+        {skillCategories.map((cat, index) => (
+          <div className="skill-card" key={index} style={{ "--accent": cat.color }}>
+            <div className="skill-header">
+              <span className="skill-icon">{cat.icon}</span>
+              <h3>{cat.title}</h3>
+            </div>
+            <div className="skill-tags">
+              {cat.skills.map((skill, i) => (
+                <span className="skill-tag" key={i}>
+                  {skill}
+                </span>
+              ))}
+            </div>
+          </div>
+        ))}
       </div>
     </section>
   );
