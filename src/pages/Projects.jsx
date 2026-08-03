@@ -31,7 +31,7 @@ const Projects = () => {
         {/* CNN PROJECT */}
         <div className="card project-card"
         onClick={() => window.open("https://nishikasingh31-handwritten-digit-classification-using-cnn.streamlit.app/", "_blank")}>
-          <h3> <strong>Handwritten Digit Recognition (CNN)</strong></h3>
+          <h3> <strong>Handwritten Digit Classification using CNN</strong></h3>
 
           <p><strong>Tech Stack:</strong> Python, TensorFlow, Keras</p>
 
