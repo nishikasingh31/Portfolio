@@ -74,10 +74,10 @@ const Projects = () => {
           
         </div>
 
-        {/* E-COMMERCE PROJECT */}
+        {/* Interview prep AI*/}
         <div className="card project-card"
         onClick={() => window.open("https://interview-prep-ai-nishika-singh.vercel.app/", "_blank")}>
-          <h3> <strong>E-commerce Website </strong></h3>
+          <h3> <strong>Interview Prep AI</strong></h3>
     
           <p><strong>Tech Stack:</strong> React, Node.js, Express, MongoDB, LLM (Groq API)</p>
           <ul>
