@@ -40,9 +40,9 @@ const Skills = () => {
   return (
     <section id="skills">
       <h2>SKILLS</h2>
-      <div className="skills-container">
+      <div className="container">
         {skillCategories.map((cat, index) => (
-          <div className="skill-card" key={index} style={{ "--accent": cat.color }}>
+          <div className="card" key={index} style={{ "--accent": cat.color }}>
             <div className="skill-header">
               <span className="skill-icon">{cat.icon}</span>
               <h3>{cat.title}</h3>
