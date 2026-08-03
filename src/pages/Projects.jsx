@@ -36,9 +36,9 @@ const Projects = () => {
           <p><strong>Tech Stack:</strong> Python, TensorFlow, Keras</p>
 
           <ul>
-             <li>Built a CNN model for recognizing handwritten digits(0–9) from image data.</li>
-             <li>Used TensorFlow and Keras for training and image classification tasks.</li>
-             <li>Trained and evaluated the model on the MNIST digit dataset.</li>
+             <li>Built a CNN model for recognizing handwritten digits(0–9) from grayscale image data.</li>
+             <li>Used TensorFlow and Keras to design, train, and evaluate the image classification model.</li>
+             <li>Trained and evaluated the model on the MNIST digit dataset, achieving high test accuracy.</li>
           </ul>
 
           <a
@@ -58,8 +58,8 @@ const Projects = () => {
           <p><strong>Tech Stack:</strong> React, Node.js, Express, MongoDB</p>
 
           <ul>
-            <li>Built a full-stack MERN Quiz platform that allows users to attempt quizzes.</li>
-            <li>Implemented real-time score calculation and instant result display features.</li>
+            <li>Built a full-stack MERN Quiz platform that allows users to attempt quizzes online.</li>
+            <li>Implemented real-time score calculation and instant result display for a smooth user experience.</li>
             <li>Supported multiple quiz categories with dynamic question and answer handling.</li>
             
           </ul>
@@ -81,7 +81,7 @@ const Projects = () => {
     
           <p><strong>Tech Stack:</strong> React, Node.js, Express, MongoDB, LLM (Groq API)</p>
           <ul>
-            <li>Built a full-stack app that generates interview questions using an LLM.</li>
+            <li>Built a full-stack app that generates role-specific interview questions using an LLM.</li>
             <li>Implemented real-time streaming of AI responses for a smoother experience.</li>
             <li>Added JWT authentication with AI-based feedback and scoring features.</li>
           </ul>
