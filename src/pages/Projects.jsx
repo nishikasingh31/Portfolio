@@ -13,9 +13,9 @@ const Projects = () => {
           <p><strong>Tech Stack:</strong> Python, NLP, Scikit-learn</p>
     
           <ul>
-            <li>Built an ML-based model for language detection and translation.</li>
-            <li>Applied NLP techniques for accurate text classification.</li>
-            <li>Trained and evaluated on a real-world Twitter dataset.</li>
+            <li>Built an ML-based model for detecting and translating multiple languages accurately.</li>
+            <li>Applied NLP techniques for text preprocessing, classification, and language identification.</li>
+            <li>Trained and evaluated the model on a real-world Twitter dataset.</li>
             
           </ul>
 
@@ -36,9 +36,9 @@ const Projects = () => {
           <p><strong>Tech Stack:</strong> Python, TensorFlow, Keras</p>
 
           <ul>
-             <li>Built a CNN model to recognize handwritten digits(0–9).</li>
-             <li>Used TensorFlow and Keras for image classification.</li>
-             <li>Trained and evaluated on a digit dataset.</li>
+             <li>Built a CNN model for recognizing handwritten digits(0–9) from image data.</li>
+             <li>Used TensorFlow and Keras for training and image classification tasks.</li>
+             <li>Trained and evaluated the model on the MNIST digit dataset.</li>
           </ul>
 
           <a
@@ -58,9 +58,9 @@ const Projects = () => {
           <p><strong>Tech Stack:</strong> React, Node.js, MongoDB</p>
 
           <ul>
-            <li>Built a full-stack quiz platform that allows users to attempt quizzes.</li>
-            <li>Real-time score calculation and result display.</li>
-            <li>Supported multiple quiz categories.</li>
+            <li>Built a full-stack MERN Quiz platform that allows users to attempt quizzes.</li>
+            <li>Implemented real-time score calculation and instant result display features.</li>
+            <li>Supported multiple quiz categories with dynamic question and answer handling.</li>
             
           </ul>
 
@@ -81,9 +81,9 @@ const Projects = () => {
     
           <p><strong>Tech Stack:</strong> React, Node.js, Express, MongoDB, LLM (Groq API)</p>
           <ul>
-            <li>Built a full-stack app that generates role-specific interview questions using an LLM.</li>
-            <li>Implemented real-time streaming of AI responses for a faster experience.</li>
-            <li>Added JWT-based authentication and dual-mode answer practice with AI feedback.</li>
+            <li>Built a full-stack app that generates interview questions using an LLM.</li>
+            <li>Implemented real-time streaming of AI responses for a smoother experience.</li>
+            <li>Added JWT authentication with AI-based feedback and scoring features.</li>
           </ul>
 
           <a
