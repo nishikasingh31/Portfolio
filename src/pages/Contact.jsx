@@ -2,7 +2,7 @@ const Contact = () => {
   return (
     <section id="contact">
       <h2>CONTACT</h2>
-      <div className="card" style={{ "--accent": "#34d399" }}>
+      <div className="card" style={{ "--accent": "#a78bfa" }}>
         <p>
           I'm open to opportunities, internships, and collaborations. Feel
           free to reach out!
