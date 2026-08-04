@@ -68,7 +68,7 @@ const Projects = () => {
                 <li key={j}>{point}</li>
               ))}
             </ul>
-            
+            <a
               href={proj.github}
               target="_blank"
               rel="noopener noreferrer"
