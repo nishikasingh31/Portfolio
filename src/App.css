@@ -23,7 +23,7 @@ section {
 }
 
 
-/* typography*/
+/* typography */
 h2 {
   font-size: 1.7rem;
   text-align: center;
@@ -39,6 +39,11 @@ h3 {
   text-align: left;
   margin-top: 0;
   margin-bottom: 10px;
+}
+
+/* Only headings explicitly marked get the accent color */
+.accent-title {
+  color: var(--accent, #38bdf8);
 }
 
 p,
@@ -126,7 +131,7 @@ nav {
 }
 
 
-/* =hero */
+/* hero */
 .hero {
   padding: 200px 12%;
   animation: slideUpFade 5s ease forwards;
@@ -164,7 +169,7 @@ nav {
 }
 
 
-/* card*/
+/* card — border color driven by --accent, text stays normal unless .accent-title used */
 .card {
   background: rgba(255, 255, 255, 0.05);
   border: 2px solid var(--accent, #38bdf8);
@@ -185,10 +190,6 @@ nav {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
 }
 
-.card h3 {
-  color: var(--accent, #38bdf8);
-}
-
 .container {
   display: grid;
   justify-content: center;
@@ -199,13 +200,20 @@ nav {
 }
 
 
-/*education*/
+/* about */
+.about .card p {
+  margin-bottom: 14px;
+  line-height: 1.6;
+}
+
+
+/* education */
 #education .card {
   margin-bottom: 20px;
 }
 
 
-/* projcts*/
+/* projects */
 .project-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -215,13 +223,13 @@ nav {
 
 .github-bottom {
   margin-top: auto;
-  color: #38bdf8;
+  color: var(--accent, #38bdf8);
   text-decoration: none;
   font-weight: bold;
 }
 
 
-/* skills*/
+/* skills */
 .skill-header {
   display: flex;
   align-items: center;
@@ -237,8 +245,9 @@ nav {
   margin: 0;
   font-size: 1.05rem;
   font-weight: 600;
-  color: var(--accent);
+  color: var(--accent, #38bdf8);
 }
+
 .skill-tags {
   display: flex;
   flex-wrap: wrap;
@@ -256,16 +265,16 @@ nav {
 }
 
 
-/* contact*/
+/* contact */
 #contact .card a {
-  color: #38bdf8;
+  color: var(--accent, #38bdf8);
   text-decoration: none;
 }
 
 #contact .card a:link,
 #contact .card a:visited,
 #contact .card a:active {
-  color: #38bdf8;
+  color: var(--accent, #38bdf8);
 }
 
 #contact .card a:hover {
