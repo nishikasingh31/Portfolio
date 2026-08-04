@@ -2,7 +2,7 @@
 
 A modern, responsive personal portfolio built with React, showcasing my projects, skills, and experience as a Full-Stack Developer with a growing focus on AI/ML.
 
-🔗 **Live Site:** [https://nishika-singh-portfolio.vercel.app/]
+🔗 **Live Site:** https://nishika-singh-portfolio.vercel.app
 
 ---
 
