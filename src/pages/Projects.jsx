@@ -12,7 +12,7 @@ const projectData = [
     ],
   },
   {
-    title: "Handwritten Digit Classification using CNN",
+    title: "Handwritten Digit Classification",
     color: "#34d399",
     link: "https://nishikasingh31-handwritten-digit-classification-using-cnn.streamlit.app/",
     github: "https://github.com/nishikasingh31/Handwritten-Digit-Classification-using-CNN",
