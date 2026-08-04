@@ -32,4 +32,3 @@ This portfolio highlights my journey as a Computer Science (AI/ML) graduate spec
 
 ---
 
-## 📂 Project Structure
