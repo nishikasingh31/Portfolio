@@ -207,7 +207,7 @@ nav {
 
 .card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 0 40px 8px var(--accent, #38bdf8);
+  box-shadow: 0 0 12px 1px var(--accent, #38bdf8);
 }
 
 .card:hover::before {
