@@ -1,16 +1,35 @@
-# React + Vite
+# 🚀 Nishika Singh — Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive personal portfolio built with React, showcasing my projects, skills, and experience as a Full-Stack Developer with a growing focus on AI/ML.
 
-Currently, two official plugins are available:
+🔗 **Live Site:** [https://nishika-singh-portfolio.vercel.app/]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 📖 About
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This portfolio highlights my journey as a Computer Science (AI/ML) graduate specializing in full-stack MERN development. It features an interactive, dark-themed UI with smooth animations, color-coded sections, and a fully responsive layout that works seamlessly across desktop and mobile devices.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+- **Dynamic Hero Section** — Animated intro with floating tech icon cards and a glowing background effect
+- **Skills Showcase** — Categorized skill sets (Programming Languages, Web Development, Databases, Machine Learning, Dev Tools) displayed as clean pill tags
+- **Project Cards** — Clickable cards linking to live demos and GitHub repositories, each with a distinct accent color
+- **Responsive Design** — Optimized layouts for both desktop and mobile, including a stacked mobile hero and evenly spaced project grid
+- **Smooth Scroll Navigation** — Sticky navbar with animated section transitions
+- **Accessible Contact Section** — Direct links to email, LinkedIn, and GitHub
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, JavaScript (ES6+)
+- **Styling:** Custom CSS (CSS Variables for dynamic theming, Flexbox & Grid layouts)
+- **Build Tool:** Vite
+- **Deployment:** Vercel
+
+---
+
+## 📂 Project Structure
