@@ -55,23 +55,19 @@ h3 {
   color: var(--accent, #38bdf8);
 }
 
-p,
-ul {
-  font-size: 1rem;
-}
-
 p {
+  font-size: 1.1rem;
   margin: 0 0 6px 0;
   line-height: 1.5;
 }
 
 ul {
+  font-size: 1rem;
   list-style-type: square;
   margin-top: 0.1px;
   padding-left: 20px;
   flex-grow: 1;
 }
-
 
 /* navbar */
 nav {
@@ -218,7 +214,7 @@ nav {
 
 /* about */
 .about .card p {
-  margin-bottom: 6px;
+  margin-bottom: 10px;
 }
 
 
