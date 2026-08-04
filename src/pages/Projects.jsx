@@ -8,7 +8,7 @@ const projectData = [
     points: [
       "Built an ML-based model for detecting and translating languages accurately.",
       "Applied NLP techniques for text preprocessing, classification, and language identification.",
-      "Trained and evaluated the model on Twitter dataset.",
+      "Trained and evaluated the model on real-world Twitter dataset.",
     ],
   },
   {
