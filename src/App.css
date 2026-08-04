@@ -28,7 +28,6 @@ section {
   background: transparent !important;
 }
 
-
 /* typography */
 h2 {
   font-size: 1.7rem;
@@ -197,8 +196,8 @@ nav {
 
 /* about */
 .about .card p {
-  font-size: 1.1rem;
-  line-height: 1.2;
+  font-size: 1.2rem;
+  line-height: 1.3;
   margin-bottom: 10px;
 }
 
@@ -207,17 +206,14 @@ nav {
 #education .card p,
 #contact .card p {
   font-size: 1rem;
-  line-height: 1.6;
+  line-height: 1;
   margin-bottom: 8px;
 }
-
 
 /* education */
 #education .card {
   margin-bottom: 14px;
 }
-
-
 /* projects */
 .project-container {
   display: grid;
