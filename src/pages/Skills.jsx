@@ -42,7 +42,7 @@ const Skills = () => {
       <h2>SKILLS</h2>
       <div className="container">
         {skillCategories.map((cat, index) => (
-          <div className="card" key={index} style={{ "--accent": cat.color }}>
+          <div className="card" <strong key={index}> </strong> style={{ "--accent": cat.color }}>
             <div className="skill-header">
               <span className="skill-icon">{cat.icon}</span>
               <h3>{cat.title}</h3>
