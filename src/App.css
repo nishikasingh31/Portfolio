@@ -187,7 +187,8 @@ nav {
 
 .card:hover {
   transform: translateY(-8px);
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 8px 20px var(--accent, #38bdf8),
+              0 0 40px var(--accent, #38bdf8);
 }
 
 .container {
