@@ -29,11 +29,6 @@ const About = () => {
           libraries like spaCy, Hugging Face Transformers, and NLTK.
         </p>
         <p>
-          <strong>Technical skills:</strong> JavaScript (ES6+), Python,
-          React.js, Node.js, Express.js, MongoDB, SQL, RESTful API design,
-          JWT authentication, and Git/GitHub for version control.
-        </p>
-        <p>
           I hold certifications in Azure Fundamentals (Microsoft),
           Generative AI (Google Cloud), and completed specialized training
           programs in Node.js backend development and MERN stack
