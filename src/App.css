@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@1,14..32,300&display=swap');
 /* GLOBAL RESET & BASE STYLES */
 body {
@@ -184,6 +183,7 @@ nav {
   gap: 20px;
   flex-wrap: wrap;
 }
+
 /* card — border color driven by --accent, text stays normal unless .accent-title used */
 .card {
   background: rgba(255, 255, 255, 0.05);
@@ -207,10 +207,9 @@ nav {
 
 /* about */
 .about .card p {
-  margin-bottom: 140px;
+  margin-bottom: 14px;
   line-height: 1.3;
 }
-
 
 /* education */
 #education .card {
