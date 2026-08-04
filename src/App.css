@@ -122,7 +122,6 @@ nav {
   }
 }
 
-
 /* hero */
 .hero {
   padding: 200px 12%;
@@ -232,13 +231,13 @@ nav {
 /* projects — paragraph & list styling, scoped to project cards only */
 .project-card p {
   font-size: 1rem;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 
 .project-card ul {
   list-style-type: square;
   font-size: 1rem;
-  margin-top: 10px;
+  margin-top: 16px;
   padding-left: 20px;
   flex-grow: 1;
 }
