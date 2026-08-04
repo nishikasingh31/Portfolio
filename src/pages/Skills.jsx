@@ -20,7 +20,7 @@ const skillCategories = [
   {
     title: "Machine Learning",
     icon: "🤖",
-    color: "#a78bfa",
+    color: "#facc15",
     skills: [
       "Scikit-learn",
       "TensorFlow / Keras",
@@ -31,7 +31,7 @@ const skillCategories = [
   {
     title: "Development Tools",
     icon: "🛠️",
-    color: "#f87171",
+    color: "#a78bfa",
     skills: ["VS Code", "Git & GitHub", "Postman", "Vercel / Render"],
   },
 ];
