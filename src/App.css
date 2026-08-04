@@ -214,7 +214,7 @@ nav {
 .project-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  column-gap: 20px;
+  gap: 20px;
   align-items: stretch;
 }
 
