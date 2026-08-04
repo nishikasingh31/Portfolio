@@ -1,13 +1,11 @@
 const skillCategories = [
   {
     title: "Programming Languages",
-    icon: "💻",
     color: "#38bdf8",
     skills: ["JavaScript (ES6+)", "Python"],
   },
   {
     title: "Web Development",
-    icon: "🌐",
     color: "#34d399",
     skills: [
       "HTML, CSS",
@@ -19,7 +17,6 @@ const skillCategories = [
   },
   {
     title: "Machine Learning",
-    icon: "🤖",
     color: "#facc15",
     skills: [
       "Scikit-learn",
@@ -30,7 +27,6 @@ const skillCategories = [
   },
   {
     title: "Development Tools",
-    icon: "🛠️",
     color: "#a78bfa",
     skills: ["VS Code", "Git & GitHub", "Postman", "Vercel / Render"],
   },
@@ -44,7 +40,6 @@ const Skills = () => {
         {skillCategories.map((cat, index) => (
           <div className="card" key={index} style={{ "--accent": cat.color }}>
             <div className="skill-header">
-              <span className="skill-icon">{cat.icon}</span>
               <h3><strong>{cat.title}</strong></h3>
             </div>
             <div className="skill-tags">
