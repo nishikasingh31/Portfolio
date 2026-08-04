@@ -292,6 +292,62 @@ nav {
   text-decoration: underline;
 }
 
+/* HEXAGON TECH GRID */
+.hex-grid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  flex-wrap: wrap;
+}
+
+.hexagon {
+  position: relative;
+  width: 140px;
+  height: 160px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 2px solid var(--accent, #38bdf8);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: -20px;
+  transition: transform 0.3s ease;
+  z-index: 1;
+}
+
+.hexagon:hover {
+  transform: scale(1.08);
+  z-index: 2;
+}
+
+.hex-icon {
+  font-size: 2.2rem;
+  margin-bottom: 6px;
+}
+
+.hex-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--accent, #38bdf8);
+}
+
+/* Stagger every other hexagon up/down for a honeycomb feel */
+.hexagon:nth-child(even) {
+  margin-top: 60px;
+}
+
+@media (max-width: 600px) {
+  .hexagon {
+    width: 110px;
+    height: 126px;
+  }
+
+  .hexagon:nth-child(even) {
+    margin-top: 40px;
+  }
+}
 
 /* footer */
 footer {
